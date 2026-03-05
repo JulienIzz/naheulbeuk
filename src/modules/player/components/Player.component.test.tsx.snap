@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with no track loaded 1`] = `
+"../../../assets/images/wood.jpg
+Aucune piste en cours
+--:--
+--:--
+
+skip-previous
+play-circle
+skip-next
+
+"
+`;
+
+exports[`renders with no track loaded 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    bottomInset={34}
+    style={
+      {
+        "alignItems": "center",
+        "borderTopColor": "#261E1A",
+        "borderTopWidth": 4,
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "padding": 16,
+        "paddingBottom": 46,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#261E1A",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <Image
+      source={
+        {
+          "testUri": "../../../assets/images/wood.jpg",
+        }
+      }
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "opacity": 0.4,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <View>
+      <Text
+        center={true}
+        color="#FFF"
+        fontFamily="Alegreya_600SemiBold"
+        fontSize={18}
+        style={
+          {
+            "color": "#FFF",
+            "fontFamily": "Alegreya_600SemiBold",
+            "fontSize": 18,
+            "padding": 4,
+            "textAlign": "center",
+          }
+        }
+      >
+        Aucune piste en cours
+      </Text>
+    </View>
+    <View
+      disabled={true}
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "opacity": 0.4,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        center={true}
+        color="#FFF"
+        fontFamily="Alegreya_600SemiBold"
+        fontSize={14}
+        style={
+          {
+            "color": "#FFF",
+            "fontFamily": "Alegreya_600SemiBold",
+            "fontSize": 14,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+      >
+        --:--
+      </Text>
+      <View
+        collapsable={false}
+        style={
+          {
+            "flex": 1,
+            "height": 32,
+            "justifyContent": "center",
+            "marginHorizontal": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.4)",
+              "borderRadius": 2,
+              "height": 4,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <View
+            collapsable={false}
+            jestAnimatedProps={
+              {
+                "value": {},
+              }
+            }
+            jestAnimatedStyle={
+              {
+                "value": {
+                  "width": 0,
+                },
+              }
+            }
+            jestInlineStyle={
+              [
+                {
+                  "backgroundColor": "#FFF",
+                  "borderRadius": 2,
+                  "height": 4,
+                },
+              ]
+            }
+            nativeID="0"
+            style={
+              {
+                "backgroundColor": "#FFF",
+                "borderRadius": 2,
+                "height": 4,
+                "width": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <Text
+        center={true}
+        color="#FFF"
+        fontFamily="Alegreya_600SemiBold"
+        fontSize={14}
+        style={
+          {
+            "color": "#FFF",
+            "fontFamily": "Alegreya_600SemiBold",
+            "fontSize": 14,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+      >
+        --:--
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 32,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        jestAnimatedProps={
+          {
+            "value": {},
+          }
+        }
+        jestAnimatedStyle={
+          {
+            "value": {
+              "transform": [
+                {
+                  "scale": 1,
+                },
+              ],
+            },
+          }
+        }
+        jestInlineStyle={{}}
+        nativeID="1"
+        style={
+          {
+            "transform": [
+              {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          accessibilityLabel="Précédent"
+          accessibilityRole="button"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          style={
+            {
+              "opacity": 0.4,
+            }
+          }
+        >
+          <Text>
+            skip-previous
+          </Text>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        jestAnimatedProps={
+          {
+            "value": {},
+          }
+        }
+        jestAnimatedStyle={
+          {
+            "value": {
+              "transform": [
+                {
+                  "scale": 1,
+                },
+              ],
+            },
+          }
+        }
+        jestInlineStyle={{}}
+        nativeID="2"
+        style={
+          {
+            "transform": [
+              {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          accessibilityLabel="Lecture"
+          accessibilityRole="button"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          style={
+            {
+              "opacity": 0.4,
+            }
+          }
+        >
+          <Text>
+            play-circle
+          </Text>
+        </View>
+      </View>
+      <View
+        collapsable={false}
+        jestAnimatedProps={
+          {
+            "value": {},
+          }
+        }
+        jestAnimatedStyle={
+          {
+            "value": {
+              "transform": [
+                {
+                  "scale": 1,
+                },
+              ],
+            },
+          }
+        }
+        jestInlineStyle={{}}
+        nativeID="3"
+        style={
+          {
+            "transform": [
+              {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          accessibilityLabel="Suivant"
+          accessibilityRole="button"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          style={
+            {
+              "opacity": 0.4,
+            }
+          }
+        >
+          <Text>
+            skip-next
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

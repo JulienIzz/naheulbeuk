@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton renders disabled 1`] = `"icon"`;
+
+exports[`IconButton renders disabled 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    jestAnimatedProps={
+      {
+        "value": {},
+      }
+    }
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      }
+    }
+    jestInlineStyle={{}}
+    nativeID="1"
+    style={
+      {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      accessibilityLabel="Play"
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      style={
+        {
+          "opacity": 0.4,
+        }
+      }
+    >
+      <Text>
+        icon
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`IconButton renders enabled 1`] = `"icon"`;
+
+exports[`IconButton renders enabled 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    jestAnimatedProps={
+      {
+        "value": {},
+      }
+    }
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      }
+    }
+    jestInlineStyle={{}}
+    nativeID="0"
+    style={
+      {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      accessibilityLabel="Play"
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text>
+        icon
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

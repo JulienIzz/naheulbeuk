@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-03-08 11:31+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/modules/home/screens/Home.screen.tsx
+#~ msgid "Accueil"
+#~ msgstr "Home"
+
+#: src/modules/player/components/Player.component.tsx
+msgid "Aucune piste en cours"
+msgstr "No track playing"
+
+#: src/modules/home/screens/Home.screen.tsx
+#: src/modules/tracks/screens/Bonus.screen.tsx
+msgid "Bonus"
+msgstr "Bonus"
+
+#: src/modules/home/screens/Home.screen.tsx
+#: src/modules/tracks/screens/Songs.screen.tsx
+msgid "Chansons"
+msgstr "Songs"
+
+#: src/modules/setup/screens/Setup.screen.tsx
+msgid "Confidentialité"
+msgstr "Privacy Policy"
+
+#: src/modules/setup/screens/Setup.screen.tsx
+msgid "Crédits"
+msgstr "Credits"
+
+#: src/modules/player/components/Player.component.tsx
+#~ msgid "Lancez une lecture"
+#~ msgstr "Play a track"
+
+#: src/modules/home/screens/Home.screen.tsx
+#~ msgid "Le Donjon de Naheulbeuk"
+#~ msgstr "The Dungeon of Naheulbeuk"
+
+#: src/modules/player/components/Player.component.tsx
+msgid "Lecture"
+msgstr "Play"
+
+#: src/modules/player/components/Player.component.tsx
+msgid "Pause"
+msgstr "Pause"
+
+#: src/modules/player/components/Player.component.tsx
+msgid "Précédent"
+msgstr "Previous"
+
+#: src/shared/components/QueryErrorBoundary.tsx
+msgid "Réessayer"
+msgstr "Retry"
+
+#: src/modules/home/components/Header.tsx
+#: src/modules/setup/screens/Setup.screen.tsx
+msgid "Réglages"
+msgstr "Settings"
+
+#: src/shared/components/BaseScreen.tsx
+msgid "Retour"
+msgstr "Back"
+
+#: src/modules/tracks/screens/Season.screen.tsx
+msgid "Saison {season}"
+msgstr "Season {season}"
+
+#: src/modules/home/screens/Home.screen.tsx
+msgid "Saison 1"
+msgstr "Season 1"
+
+#: src/modules/home/screens/Home.screen.tsx
+msgid "Saison 2"
+msgstr "Season 2"
+
+#: src/modules/home/screens/Home.screen.tsx
+msgid "Saison 3"
+msgstr "Season 3"
+
+#: src/modules/home/components/Header.tsx
+msgid "Site Officiel"
+msgstr "Website"
+
+#: src/modules/player/components/Player.component.tsx
+msgid "Suivant"
+msgstr "Next"
+
+#: src/shared/components/QueryErrorBoundary.tsx
+msgid "Une erreur est survenue"
+msgstr "Something went wrong"

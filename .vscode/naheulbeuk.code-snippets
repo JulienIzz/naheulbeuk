@@ -1,0 +1,19 @@
+{
+  "Create page": {
+    "scope": "javascript,typescript,typescriptreact",
+    "prefix": "page",
+    "body": [
+      "import { Text, View } from \"react-native\";",
+      "",
+      "export default function ${TM_FILENAME/(.*)\\.tsx/$1/}() {",
+      "  return (",
+      "    <View>",
+      "      <Text>${TM_FILENAME/(.*)\\.tsx/$1/}</Text>",
+      "    </View>",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "Create new page"
+  }
+}

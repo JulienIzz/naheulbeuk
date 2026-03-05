@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a song track without season info 1`] = `"A Song"`;
+
+exports[`renders a song track without season info 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "transparent",
+          "gap": 2,
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        color="#000"
+        fontFamily="Alegreya_500Medium"
+        fontSize={18}
+        numberOfLines={1}
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Alegreya_500Medium",
+            "fontSize": 18,
+            "textAlign": undefined,
+          }
+        }
+      >
+        A Song
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`renders active state 1`] = `
+"Episode 1 - The Beginning
+S1 · E1
+"
+`;
+
+exports[`renders active state 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+  >
+    <View
+      isActive={true}
+      style={
+        {
+          "backgroundColor": "#0000001a",
+          "gap": 2,
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        color="#000"
+        fontFamily="Alegreya_500Medium"
+        fontSize={18}
+        numberOfLines={1}
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Alegreya_500Medium",
+            "fontSize": 18,
+            "textAlign": undefined,
+          }
+        }
+      >
+        Episode 1 - The Beginning
+      </Text>
+      <Text
+        color="#000"
+        fontFamily="Alegreya_400Regular"
+        fontSize={14}
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Alegreya_400Regular",
+            "fontSize": 14,
+            "textAlign": undefined,
+          }
+        }
+      >
+        S1 · E1
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`renders an episode track 1`] = `
+"Episode 1 - The Beginning
+S1 · E1
+"
+`;
+
+exports[`renders an episode track 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "transparent",
+          "gap": 2,
+          "padding": 12,
+        }
+      }
+    >
+      <Text
+        color="#000"
+        fontFamily="Alegreya_500Medium"
+        fontSize={18}
+        numberOfLines={1}
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Alegreya_500Medium",
+            "fontSize": 18,
+            "textAlign": undefined,
+          }
+        }
+      >
+        Episode 1 - The Beginning
+      </Text>
+      <Text
+        color="#000"
+        fontFamily="Alegreya_400Regular"
+        fontSize={14}
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Alegreya_400Regular",
+            "fontSize": 14,
+            "textAlign": undefined,
+          }
+        }
+      >
+        S1 · E1
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

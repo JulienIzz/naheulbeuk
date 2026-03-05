@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar renders disabled state 1`] = `
+"--:--
+--:--
+"
+`;
+
+exports[`ProgressBar renders disabled state 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    disabled={true}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "opacity": 0.4,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      center={true}
+      color="#FFF"
+      fontFamily="Alegreya_600SemiBold"
+      fontSize={14}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Alegreya_600SemiBold",
+          "fontSize": 14,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+    >
+      --:--
+    </Text>
+    <View
+      collapsable={false}
+      style={
+        {
+          "flex": 1,
+          "height": 32,
+          "justifyContent": "center",
+          "marginHorizontal": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "rgba(255, 255, 255, 0.4)",
+            "borderRadius": 2,
+            "height": 4,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          jestAnimatedProps={
+            {
+              "value": {},
+            }
+          }
+          jestAnimatedStyle={
+            {
+              "value": {
+                "width": 0,
+              },
+            }
+          }
+          jestInlineStyle={
+            [
+              {
+                "backgroundColor": "#FFF",
+                "borderRadius": 2,
+                "height": 4,
+              },
+            ]
+          }
+          nativeID="2"
+          style={
+            {
+              "backgroundColor": "#FFF",
+              "borderRadius": 2,
+              "height": 4,
+              "width": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      center={true}
+      color="#FFF"
+      fontFamily="Alegreya_600SemiBold"
+      fontSize={14}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Alegreya_600SemiBold",
+          "fontSize": 14,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+    >
+      --:--
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`ProgressBar renders with progress 1`] = `
+"0:32
+3:45
+"
+`;
+
+exports[`ProgressBar renders with progress 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    disabled={false}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      center={true}
+      color="#FFF"
+      fontFamily="Alegreya_600SemiBold"
+      fontSize={14}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Alegreya_600SemiBold",
+          "fontSize": 14,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+    >
+      0:32
+    </Text>
+    <View
+      collapsable={false}
+      style={
+        {
+          "flex": 1,
+          "height": 32,
+          "justifyContent": "center",
+          "marginHorizontal": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "rgba(255, 255, 255, 0.4)",
+            "borderRadius": 2,
+            "height": 4,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          jestAnimatedProps={
+            {
+              "value": {},
+            }
+          }
+          jestAnimatedStyle={
+            {
+              "value": {
+                "width": 0,
+              },
+            }
+          }
+          jestInlineStyle={
+            [
+              {
+                "backgroundColor": "#FFF",
+                "borderRadius": 2,
+                "height": 4,
+              },
+            ]
+          }
+          nativeID="3"
+          style={
+            {
+              "backgroundColor": "#FFF",
+              "borderRadius": 2,
+              "height": 4,
+              "width": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        collapsable={false}
+        jestAnimatedProps={
+          {
+            "value": {},
+          }
+        }
+        jestAnimatedStyle={
+          {
+            "value": {
+              "transform": [
+                {
+                  "translateX": 0,
+                },
+              ],
+            },
+          }
+        }
+        jestInlineStyle={
+          [
+            {
+              "backgroundColor": "#FFF",
+              "borderRadius": 9999,
+              "height": 12,
+              "left": -6,
+              "position": "absolute",
+              "top": 10,
+              "width": 12,
+            },
+          ]
+        }
+        nativeID="4"
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderRadius": 9999,
+            "height": 12,
+            "left": -6,
+            "position": "absolute",
+            "top": 10,
+            "transform": [
+              {
+                "translateX": 0,
+              },
+            ],
+            "width": 12,
+          }
+        }
+      />
+    </View>
+    <Text
+      center={true}
+      color="#FFF"
+      fontFamily="Alegreya_600SemiBold"
+      fontSize={14}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Alegreya_600SemiBold",
+          "fontSize": 14,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+    >
+      3:45
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`ProgressBar renders with zero duration 1`] = `
+"--:--
+--:--
+"
+`;
+
+exports[`ProgressBar renders with zero duration 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    disabled={false}
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      center={true}
+      color="#FFF"
+      fontFamily="Alegreya_600SemiBold"
+      fontSize={14}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Alegreya_600SemiBold",
+          "fontSize": 14,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+    >
+      --:--
+    </Text>
+    <View
+      collapsable={false}
+      style={
+        {
+          "flex": 1,
+          "height": 32,
+          "justifyContent": "center",
+          "marginHorizontal": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "rgba(255, 255, 255, 0.4)",
+            "borderRadius": 2,
+            "height": 4,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          jestAnimatedProps={
+            {
+              "value": {},
+            }
+          }
+          jestAnimatedStyle={
+            {
+              "value": {
+                "width": 0,
+              },
+            }
+          }
+          jestInlineStyle={
+            [
+              {
+                "backgroundColor": "#FFF",
+                "borderRadius": 2,
+                "height": 4,
+              },
+            ]
+          }
+          nativeID="0"
+          style={
+            {
+              "backgroundColor": "#FFF",
+              "borderRadius": 2,
+              "height": 4,
+              "width": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        collapsable={false}
+        jestAnimatedProps={
+          {
+            "value": {},
+          }
+        }
+        jestAnimatedStyle={
+          {
+            "value": {
+              "transform": [
+                {
+                  "translateX": 0,
+                },
+              ],
+            },
+          }
+        }
+        jestInlineStyle={
+          [
+            {
+              "backgroundColor": "#FFF",
+              "borderRadius": 9999,
+              "height": 12,
+              "left": -6,
+              "position": "absolute",
+              "top": 10,
+              "width": 12,
+            },
+          ]
+        }
+        nativeID="1"
+        style={
+          {
+            "backgroundColor": "#FFF",
+            "borderRadius": 9999,
+            "height": 12,
+            "left": -6,
+            "position": "absolute",
+            "top": 10,
+            "transform": [
+              {
+                "translateX": 0,
+              },
+            ],
+            "width": 12,
+          }
+        }
+      />
+    </View>
+    <Text
+      center={true}
+      color="#FFF"
+      fontFamily="Alegreya_600SemiBold"
+      fontSize={14}
+      style={
+        {
+          "color": "#FFF",
+          "fontFamily": "Alegreya_600SemiBold",
+          "fontSize": 14,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+    >
+      --:--
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;

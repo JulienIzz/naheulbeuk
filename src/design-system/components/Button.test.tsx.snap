@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders disabled state 1`] = `
+"../../../assets/images/wood.jpg
+Disabled
+"
+`;
+
+exports[`Button renders disabled state 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    jestAnimatedProps={
+      {
+        "value": {},
+      }
+    }
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      }
+    }
+    jestInlineStyle={{}}
+    nativeID="2"
+    style={
+      {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#261E1A",
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <Image
+        source={
+          {
+            "testUri": "../../../assets/images/wood.jpg",
+          }
+        }
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "opacity": 0.4,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <Text
+        color="#CCC"
+        fontFamily="Alegreya_600SemiBold"
+        fontSize={18}
+        style={
+          {
+            "color": "#CCC",
+            "fontFamily": "Alegreya_600SemiBold",
+            "fontSize": 18,
+            "textAlign": undefined,
+          }
+        }
+      >
+        Disabled
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Button renders primary variant 1`] = `
+"../../../assets/images/wood.jpg
+Press me
+"
+`;
+
+exports[`Button renders primary variant 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    jestAnimatedProps={
+      {
+        "value": {},
+      }
+    }
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      }
+    }
+    jestInlineStyle={{}}
+    nativeID="0"
+    style={
+      {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#261E1A",
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <Image
+        source={
+          {
+            "testUri": "../../../assets/images/wood.jpg",
+          }
+        }
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "opacity": 0.4,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <Text
+        color="#FFF"
+        fontFamily="Alegreya_600SemiBold"
+        fontSize={18}
+        style={
+          {
+            "color": "#FFF",
+            "fontFamily": "Alegreya_600SemiBold",
+            "fontSize": 18,
+            "textAlign": undefined,
+          }
+        }
+      >
+        Press me
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Button renders secondary variant 1`] = `
+"../../../assets/images/wood.jpg
+Secondary
+"
+`;
+
+exports[`Button renders secondary variant 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    jestAnimatedProps={
+      {
+        "value": {},
+      }
+    }
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      }
+    }
+    jestInlineStyle={{}}
+    nativeID="1"
+    style={
+      {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#261E1A",
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <Image
+        source={
+          {
+            "testUri": "../../../assets/images/wood.jpg",
+          }
+        }
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "opacity": 0.4,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <Text
+        color="#000"
+        fontFamily="Alegreya_600SemiBold"
+        fontSize={18}
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Alegreya_600SemiBold",
+            "fontSize": 18,
+            "textAlign": undefined,
+          }
+        }
+      >
+        Secondary
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Button renders with left and right slots 1`] = `
+"../../../assets/images/wood.jpg
+L
+With slots
+R
+"
+`;
+
+exports[`Button renders with left and right slots 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={false}
+    jestAnimatedProps={
+      {
+        "value": {},
+      }
+    }
+    jestAnimatedStyle={
+      {
+        "value": {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      }
+    }
+    jestInlineStyle={{}}
+    nativeID="3"
+    style={
+      {
+        "transform": [
+          {
+            "scale": 1,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": false,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "paddingHorizontal": 16,
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#261E1A",
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <Image
+        source={
+          {
+            "testUri": "../../../assets/images/wood.jpg",
+          }
+        }
+        style={
+          {
+            "bottom": 0,
+            "left": 0,
+            "opacity": 0.4,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+      <Text>
+        L
+      </Text>
+      <Text
+        color="#FFF"
+        fontFamily="Alegreya_600SemiBold"
+        fontSize={18}
+        style={
+          {
+            "color": "#FFF",
+            "fontFamily": "Alegreya_600SemiBold",
+            "fontSize": 18,
+            "textAlign": undefined,
+          }
+        }
+      >
+        With slots
+      </Text>
+      <Text>
+        R
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

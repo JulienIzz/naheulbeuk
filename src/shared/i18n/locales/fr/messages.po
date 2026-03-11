@@ -97,6 +97,11 @@ msgstr "Saison 3"
 msgid "Site Officiel"
 msgstr "Site Officiel"
 
+#: src/modules/home/screens/Home.screen.tsx
+#: src/modules/soundboard/screens/Soundboard.screen.tsx
+msgid "Soundboard"
+msgstr "Soundboard"
+
 #: src/modules/player/components/Player.component.tsx
 msgid "Suivant"
 msgstr "Suivant"

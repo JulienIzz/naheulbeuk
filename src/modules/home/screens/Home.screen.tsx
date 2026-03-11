@@ -28,37 +28,43 @@ export const HomeScreen = () => {
 
       <Container>
         <PaperBackground />
-        <ContentContainer>
-          <ImageButton
-            onPress={() => router.push(`/tracks/season/1`)}
-            imageSource={season1}
-            label={t`Saison 1`}
-          />
-          <ImageButton
-            onPress={() => router.push(`/tracks/season/2`)}
-            imageSource={season2}
-            label={t`Saison 2`}
-          />
-          <ImageButton
-            onPress={() => router.push(`/tracks/season/3`)}
-            imageSource={season3}
-            label={t`Saison 3`}
-          />
-          <ButtonRow>
-            <FlexView>
-              <Button
-                onPress={() => router.push("/tracks/bonus")}
-                label={t`Bonus`}
-              />
-            </FlexView>
-            <FlexView>
-              <Button
-                onPress={() => router.push("/tracks/songs")}
-                label={t`Chansons`}
-              />
-            </FlexView>
-          </ButtonRow>
-        </ContentContainer>
+        <StyledScrollView>
+          <ContentContainer>
+            <ImageButton
+              onPress={() => router.push(`/tracks/season/1`)}
+              imageSource={season1}
+              label={t`Saison 1`}
+            />
+            <ImageButton
+              onPress={() => router.push(`/tracks/season/2`)}
+              imageSource={season2}
+              label={t`Saison 2`}
+            />
+            <ImageButton
+              onPress={() => router.push(`/tracks/season/3`)}
+              imageSource={season3}
+              label={t`Saison 3`}
+            />
+            <ButtonRow>
+              <FlexView>
+                <Button
+                  onPress={() => router.push("/tracks/bonus")}
+                  label={t`Bonus`}
+                />
+              </FlexView>
+              <FlexView>
+                <Button
+                  onPress={() => router.push("/tracks/songs")}
+                  label={t`Chansons`}
+                />
+              </FlexView>
+            </ButtonRow>
+            <Button
+              onPress={() => router.push("/soundboard")}
+              label={t`Soundboard`}
+            />
+          </ContentContainer>
+        </StyledScrollView>
       </Container>
     </ScreenContainer>
   );
@@ -68,18 +74,21 @@ const ScreenContainer = styled.View({
   flex: 1,
 });
 
-const Container = styled.View(({ theme }) => ({
+const Container = styled.View({
   flex: 1,
-  justifyContent: "space-between",
-  padding: HOME_WALLET_RADIUS,
-  gap: theme.spacing.xxl,
   overflow: "hidden",
   borderTopLeftRadius: HOME_WALLET_RADIUS,
   borderTopRightRadius: HOME_WALLET_RADIUS,
-}));
+});
+
+const StyledScrollView = styled.ScrollView({
+  flex: 1,
+});
 
 const ContentContainer = styled.View(({ theme }) => ({
   gap: theme.spacing.l,
+  padding: HOME_WALLET_RADIUS,
+  paddingBottom: theme.spacing.xxxl,
 }));
 
 const ButtonRow = styled(Row)(({ theme }) => ({

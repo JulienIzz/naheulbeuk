@@ -19,3 +19,10 @@ export const useAudioPlayerStatus = jest.fn(() => ({
 }));
 
 export const setAudioModeAsync = jest.fn();
+
+export const createAudioPlayer = jest.fn(() => ({
+  play: jest.fn(),
+  pause: jest.fn(),
+  remove: jest.fn(),
+  addListener: jest.fn(() => ({ remove: jest.fn() })),
+}));

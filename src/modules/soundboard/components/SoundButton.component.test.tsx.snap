@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SoundButton renders the clip title 1`] = `
+"../../../assets/images/wood.jpg
+Vous n'aurez pas le trésor
+"
+`;
+
+exports[`SoundButton renders the clip title 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      collapsable={false}
+      jestAnimatedProps={
+        {
+          "value": {},
+        }
+      }
+      jestAnimatedStyle={
+        {
+          "value": {
+            "transform": [
+              {
+                "scale": 1,
+              },
+            ],
+          },
+        }
+      }
+      jestInlineStyle={{}}
+      nativeID="0"
+      style={
+        {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Vous n'aurez pas le trésor"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        style={
+          {
+            "alignItems": "center",
+            "borderRadius": 12,
+            "flex": 1,
+            "justifyContent": "center",
+            "minHeight": 80,
+            "overflow": "hidden",
+            "paddingHorizontal": 8,
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#261E1A",
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+        <Image
+          source={
+            {
+              "testUri": "../../../assets/images/wood.jpg",
+            }
+          }
+          style={
+            {
+              "bottom": 0,
+              "left": 0,
+              "opacity": 0.4,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+        <Text
+          center={true}
+          color="#FFF"
+          fontFamily="Alegreya_400Regular"
+          fontSize={14}
+          numberOfLines={0}
+          style={
+            {
+              "color": "#FFF",
+              "fontFamily": "Alegreya_400Regular",
+              "fontSize": 14,
+              "textAlign": "center",
+            }
+          }
+        >
+          Vous n'aurez pas le trésor
+        </Text>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

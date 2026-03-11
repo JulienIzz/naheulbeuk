@@ -39,8 +39,4 @@ export const getSongs = () =>
   fetchTracks("song", [{ column: "title", ascending: true }]);
 
 export const getSoundboardClips = () =>
-  fetchTracks(
-    "soundboard",
-    [{ column: "title", ascending: true }],
-    "id, title, r2_path",
-  );
+  fetchTracks("soundboard", [{ column: "title", ascending: true }]);

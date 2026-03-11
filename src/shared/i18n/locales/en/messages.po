@@ -37,10 +37,6 @@ msgid "Crédits"
 msgstr "Credits"
 
 #: src/modules/setup/screens/Credits.screen.tsx
-msgid "Design"
-msgstr "Design"
-
-#: src/modules/setup/screens/Credits.screen.tsx
 msgid "Développement"
 msgstr "Development"
 

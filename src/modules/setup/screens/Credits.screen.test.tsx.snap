@@ -11,9 +11,6 @@ Le Donjon de Naheulbeuk est une création originale de Pen of Chaos / John Lang.
 Développement
 Julien IZZILLO
 
-Design
-Yolaine BOURREAU
-
 
 "
 `;
@@ -244,44 +241,6 @@ exports[`CreditsScreen renders credits content 2`] = `
             }
           >
             Julien IZZILLO
-          </Text>
-        </View>
-        <View
-          style={
-            {
-              "gap": 8,
-            }
-          }
-        >
-          <Text
-            color="#000"
-            fontFamily="Alegreya_600SemiBold"
-            fontSize={24}
-            style={
-              {
-                "color": "#000",
-                "fontFamily": "Alegreya_600SemiBold",
-                "fontSize": 24,
-                "textAlign": undefined,
-              }
-            }
-          >
-            Design
-          </Text>
-          <Text
-            color="#000"
-            fontFamily="Alegreya_500Medium"
-            fontSize={18}
-            style={
-              {
-                "color": "#000",
-                "fontFamily": "Alegreya_500Medium",
-                "fontSize": 18,
-                "textAlign": undefined,
-              }
-            }
-          >
-            Yolaine BOURREAU
           </Text>
         </View>
       </View>

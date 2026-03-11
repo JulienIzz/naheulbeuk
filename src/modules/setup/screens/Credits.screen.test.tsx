@@ -9,7 +9,6 @@ describe("CreditsScreen", () => {
 
     expect(screen.getByText("Propriété intellectuelle")).toBeOnTheScreen();
     expect(screen.getByText("Julien IZZILLO")).toBeOnTheScreen();
-    expect(screen.getByText("Yolaine BOURREAU")).toBeOnTheScreen();
     expect(screen).toMatchComponentSnapshot();
   });
 });

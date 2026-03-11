@@ -46,19 +46,6 @@ const CreditsScreenContent = () => {
           color={theme.colors.secondary}
         />
       </Section>
-
-      <Section>
-        <Typography
-          variant="H2"
-          text={t`Design`}
-          color={theme.colors.secondary}
-        />
-        <Typography
-          variant="P1"
-          text="Yolaine BOURREAU"
-          color={theme.colors.secondary}
-        />
-      </Section>
     </Container>
   );
 };

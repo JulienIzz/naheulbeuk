@@ -32,6 +32,8 @@ supabase                 # Supabase CLI (run SQL, migrations, generate types)
 
 **Testing**: run `yarn test:claude` after making changes to ensure types, linting, and tests pass locally before pushing
 
+**Translations**: after adding or changing i18n strings, run `yarn translations:update` then fill in any missing English translations in `src/shared/i18n/locales/en/messages.po` (look for empty `msgstr ""` entries)
+
 ## Architecture
 
 - **Navigation**: `expo-router` with Stack layout (root at `src/app/navigation/`)

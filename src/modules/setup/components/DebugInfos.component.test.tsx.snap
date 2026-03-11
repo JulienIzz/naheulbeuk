@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DebugInfos renders the version info 1`] = `"Version mock (mock)"`;
+
+exports[`DebugInfos renders the version info 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#261E1A",
+        "fontFamily": "Alegreya_400Regular",
+        "fontSize": 14,
+        "textAlign": "center",
+      }
+    }
+  >
+    Version mock (mock)
+  </Text>
+</RNCSafeAreaProvider>
+`;

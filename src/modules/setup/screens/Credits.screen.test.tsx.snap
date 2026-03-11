@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreditsScreen renders credits content 1`] = `
+"../../../assets/images/paper.jpg
+arrow-back
+Crédits
+
+Propriété intellectuelle
+Le Donjon de Naheulbeuk est une création originale de Pen of Chaos / John Lang. Tous les droits relatifs à cet univers lui appartiennent.
+
+Développement
+Julien IZZILLO
+
+Design
+Yolaine BOURREAU
+
+
+"
+`;
+
+exports[`CreditsScreen renders credits content 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "paddingTop": 47,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#FFF",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <Image
+      source={
+        {
+          "testUri": "../../../assets/images/paper.jpg",
+        }
+      }
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "opacity": 0.4,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 12,
+          "padding": 16,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        jestAnimatedProps={
+          {
+            "value": {},
+          }
+        }
+        jestAnimatedStyle={
+          {
+            "value": {
+              "transform": [
+                {
+                  "scale": 1,
+                },
+              ],
+            },
+          }
+        }
+        jestInlineStyle={{}}
+        nativeID="0"
+        style={
+          {
+            "transform": [
+              {
+                "scale": 1,
+              },
+            ],
+          }
+        }
+      >
+        <View
+          accessibilityLabel="Retour"
+          accessibilityRole="button"
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          style={
+            {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text>
+            arrow-back
+          </Text>
+        </View>
+      </View>
+      <Text
+        center={true}
+        color="#000"
+        fontFamily="Alegreya_700Bold"
+        fontSize={32}
+        style={
+          {
+            "color": "#000",
+            "fontFamily": "Alegreya_700Bold",
+            "fontSize": 32,
+            "textAlign": "center",
+          }
+        }
+      >
+        Crédits
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flex": 1,
+            "gap": 24,
+            "padding": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "gap": 8,
+            }
+          }
+        >
+          <Text
+            color="#000"
+            fontFamily="Alegreya_600SemiBold"
+            fontSize={24}
+            style={
+              {
+                "color": "#000",
+                "fontFamily": "Alegreya_600SemiBold",
+                "fontSize": 24,
+                "textAlign": undefined,
+              }
+            }
+          >
+            Propriété intellectuelle
+          </Text>
+          <Text
+            color="#000"
+            fontFamily="Alegreya_500Medium"
+            fontSize={18}
+            style={
+              {
+                "color": "#000",
+                "fontFamily": "Alegreya_500Medium",
+                "fontSize": 18,
+                "textAlign": undefined,
+              }
+            }
+          >
+            Le Donjon de Naheulbeuk est une création originale de Pen of Chaos / John Lang. Tous les droits relatifs à cet univers lui appartiennent.
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "gap": 8,
+            }
+          }
+        >
+          <Text
+            color="#000"
+            fontFamily="Alegreya_600SemiBold"
+            fontSize={24}
+            style={
+              {
+                "color": "#000",
+                "fontFamily": "Alegreya_600SemiBold",
+                "fontSize": 24,
+                "textAlign": undefined,
+              }
+            }
+          >
+            Développement
+          </Text>
+          <Text
+            color="#000"
+            fontFamily="Alegreya_500Medium"
+            fontSize={18}
+            style={
+              {
+                "color": "#000",
+                "fontFamily": "Alegreya_500Medium",
+                "fontSize": 18,
+                "textAlign": undefined,
+              }
+            }
+          >
+            Julien IZZILLO
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "gap": 8,
+            }
+          }
+        >
+          <Text
+            color="#000"
+            fontFamily="Alegreya_600SemiBold"
+            fontSize={24}
+            style={
+              {
+                "color": "#000",
+                "fontFamily": "Alegreya_600SemiBold",
+                "fontSize": 24,
+                "textAlign": undefined,
+              }
+            }
+          >
+            Design
+          </Text>
+          <Text
+            color="#000"
+            fontFamily="Alegreya_500Medium"
+            fontSize={18}
+            style={
+              {
+                "color": "#000",
+                "fontFamily": "Alegreya_500Medium",
+                "fontSize": 18,
+                "textAlign": undefined,
+              }
+            }
+          >
+            Yolaine BOURREAU
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

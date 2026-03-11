@@ -1,7 +1,9 @@
 import styled from "@emotion/native";
 import { useLingui } from "@lingui/react/macro";
+import { useRouter } from "expo-router";
 
 import { Button } from "#design-system/components/Button";
+import { DebugInfos } from "#modules/setup/components/DebugInfos.component";
 import { BaseScreen } from "#shared/components/BaseScreen";
 
 export const SetupScreen = () => {
@@ -16,13 +18,15 @@ export const SetupScreen = () => {
 
 const SetupScreenContent = () => {
   const { t } = useLingui();
+  const router = useRouter();
 
   return (
     <Container>
       <ContentContainer>
-        <Button onPress={() => {}} label={t`Crédits`} />
+        <Button onPress={() => router.push("/credits")} label={t`Crédits`} />
         <Button onPress={() => {}} label={t`Confidentialité`} />
       </ContentContainer>
+      <DebugInfos />
     </Container>
   );
 };

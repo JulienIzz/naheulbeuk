@@ -35,9 +35,18 @@ msgstr "Songs"
 msgid "Confidentialité"
 msgstr "Privacy Policy"
 
+#: src/modules/setup/screens/Credits.screen.tsx
 #: src/modules/setup/screens/Setup.screen.tsx
 msgid "Crédits"
 msgstr "Credits"
+
+#: src/modules/setup/screens/Credits.screen.tsx
+msgid "Design"
+msgstr "Design"
+
+#: src/modules/setup/screens/Credits.screen.tsx
+msgid "Développement"
+msgstr "Development"
 
 #: src/modules/player/components/Player.component.tsx
 #~ msgid "Lancez une lecture"
@@ -46,6 +55,10 @@ msgstr "Credits"
 #: src/modules/home/screens/Home.screen.tsx
 #~ msgid "Le Donjon de Naheulbeuk"
 #~ msgstr "The Dungeon of Naheulbeuk"
+
+#: src/modules/setup/screens/Credits.screen.tsx
+msgid "Le Donjon de Naheulbeuk est une création originale de Pen of Chaos / John Lang. Tous les droits relatifs à cet univers lui appartiennent."
+msgstr "The Dungeon of Naheulbeuk is an original creation by Pen of Chaos / John Lang. All rights related to this universe belong to him."
 
 #: src/modules/player/components/Player.component.tsx
 msgid "Lecture"
@@ -58,6 +71,10 @@ msgstr "Pause"
 #: src/modules/player/components/Player.component.tsx
 msgid "Précédent"
 msgstr "Previous"
+
+#: src/modules/setup/screens/Credits.screen.tsx
+msgid "Propriété intellectuelle"
+msgstr "Intellectual Property"
 
 #: src/shared/components/QueryErrorBoundary.tsx
 msgid "Réessayer"
@@ -99,3 +116,11 @@ msgstr "Next"
 #: src/shared/components/QueryErrorBoundary.tsx
 msgid "Une erreur est survenue"
 msgstr "Something went wrong"
+
+#: src/modules/setup/components/DebugInfos.component.tsx
+msgid "Version {version}"
+msgstr "Version {version}"
+
+#: src/modules/setup/components/DebugInfos.component.tsx
+msgid "Version {version} ({build})"
+msgstr "Version {version} ({build})"

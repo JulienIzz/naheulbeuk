@@ -8,11 +8,11 @@ Mobile audio streaming app for the _Donjon de Naheulbeuk_ audio saga. React Nati
 
 ```bash
 yarn start              # Start Expo dev server
-yarn test               # Run all checks (types + lint + jest)
+yarn test               # Run all checks (translations + jest + lint + types)
 yarn test:claude        # Quick check: jest on changed files + lint --fix + types
 yarn test:types         # TypeScript type checking
 yarn test:lint          # ESLint, add --fix to auto-fix fixable issues
-yarn test:jest          # Jest one shot all tests
+yarn test:unit          # Jest one shot all tests
 yarn ios                # Build on iOS
 yarn android            # Build on Android
 ```
@@ -37,9 +37,9 @@ supabase                 # Supabase CLI (run SQL, migrations, generate types)
 ## Architecture
 
 - **Navigation**: `expo-router` with Stack layout (root at `src/app/navigation/`)
-- **Config**: `app.config.ts` with `STAGE` env var (dev/staging/production). Runtime config via `appEnv` accessed through `expo-constants` — no `.env` for app secrets
+- **Config**: `app.config.ts` with `STAGE` env var (dev/production). Runtime config via `appEnv` accessed through `expo-constants` — no `.env` for app secrets
 - **Path aliases**: `#app/*`, `#modules/*`, `#shared/*`, `#testing/*`, `#design-system/*` (configured in `tsconfig.json`)
-- **Design system**: theme tokens in `#design-system/theme` — colors, spacing, fontSizes, fontWeights, borderRadius. Use `({ theme }: { theme: DefaultTheme })` in styled-components
+- **Design system**: theme tokens in `#design-system/theme` — colors, spacing, fontSizes, fontWeights, borderRadius. Styling via `@emotion/native` (`styled`). Use `({ theme }: { theme: DefaultTheme })` in styled components
 - **Data flow**: Supabase (metadata) → TanStack Query (cache) → screens. Audio streamed directly from Cloudflare R2
 
 ## Code Conventions
@@ -68,7 +68,7 @@ supabase                 # Supabase CLI (run SQL, migrations, generate types)
 
 ## ESLint rules to remember
 
-- **No inline styles**: use `styled-components`, never `style={{ }}`. For `contentContainerStyle` use `styled.X.attrs()`
+- **No inline styles**: use Emotion's `styled` from `@emotion/native`, never `style={{ }}`. For `contentContainerStyle` use `styled.X.attrs()`
 - **Named effects**: `useEffect` callbacks must be named functions (`useEffect(function doThing() { ... })`)
 - **No raw text**: whitespace between JSX expressions counts as raw text — use string concatenation
 - **Strict equality**: always `===`/`!==`

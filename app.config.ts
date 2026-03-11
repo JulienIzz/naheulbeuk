@@ -1,10 +1,12 @@
 import type { ExpoConfig } from "@expo/config-types";
 
-const STAGE = process.env.STAGE || "dev";
-
-if (STAGE !== "dev" && STAGE !== "production") {
-  throw new Error(`Invalid STAGE env var: ${STAGE}`);
-}
+const STAGE: "dev" | "production" = (() => {
+  const stage = process.env.STAGE || "dev";
+  if (stage !== "dev" && stage !== "production") {
+    throw new Error(`Invalid STAGE env var: ${stage}`);
+  }
+  return stage;
+})();
 
 const appConfig_DEV = {
   bundleId: "com.naheulbeuk.app.dev",

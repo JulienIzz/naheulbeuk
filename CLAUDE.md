@@ -22,11 +22,11 @@ yarn android            # Build on Android
 ## External CLIs
 
 ```bash
-yarn wrangler            # Cloudflare R2 management (upload files, manage buckets)
+npx wrangler             # Cloudflare R2 management (upload files, manage buckets)
 supabase                 # Supabase CLI (run SQL, migrations, generate types)
 ```
 
-**Wrangler R2**: always use the `--remote` flag when interacting with R2 (e.g. `yarn wrangler r2 object put ... --remote`). Without it, wrangler targets local emulation.
+**Wrangler R2**: wrangler is not a project dependency (removed to avoid native build failures on EAS). Use `npx wrangler` instead. Always use the `--remote` flag when interacting with R2 (e.g. `npx wrangler r2 object put ... --remote`). Without it, wrangler targets local emulation.
 
 ## Development workflow
 

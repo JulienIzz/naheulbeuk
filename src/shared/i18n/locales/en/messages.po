@@ -13,10 +13,6 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/modules/home/screens/Home.screen.tsx
-#~ msgid "Accueil"
-#~ msgstr "Home"
-
 #: src/modules/player/components/Player.component.tsx
 msgid "Aucune piste en cours"
 msgstr "No track playing"
@@ -47,14 +43,6 @@ msgstr "Design"
 #: src/modules/setup/screens/Credits.screen.tsx
 msgid "Développement"
 msgstr "Development"
-
-#: src/modules/player/components/Player.component.tsx
-#~ msgid "Lancez une lecture"
-#~ msgstr "Play a track"
-
-#: src/modules/home/screens/Home.screen.tsx
-#~ msgid "Le Donjon de Naheulbeuk"
-#~ msgstr "The Dungeon of Naheulbeuk"
 
 #: src/modules/setup/screens/Credits.screen.tsx
 msgid "Le Donjon de Naheulbeuk est une création originale de Pen of Chaos / John Lang. Tous les droits relatifs à cet univers lui appartiennent."

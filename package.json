@@ -16,7 +16,7 @@
     "find-dead-code": "ts-prune --ignore '__mocks__/*|src/testing/*|metro.config.js|.*.d.ts'",
     "translations:extract": "lingui extract --clean",
     "translations:compile": "lingui compile",
-    "translations:update": "lingui extract && lingui compile",
+    "translations:update": "lingui extract --clean && lingui compile",
     "postinstall": "yarn translations:update"
   },
   "dependencies": {

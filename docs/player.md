@@ -120,14 +120,12 @@ When `currentTrack === null`:
 
 ### Track metadata display
 
-`TypeToLabelMap` maps track types to French labels for the subtitle:
+`TrackInfo` shows a subtitle only for episodes that have both `season` and `episodeNumber`:
 
-| Type         | Subtitle                       |
-| ------------ | ------------------------------ |
-| `episode`    | `S{season} · E{episodeNumber}` |
-| `song`       | "Chanson"                      |
-| `bonus`      | "Bonus"                        |
-| `soundboard` | _(none)_                       |
+| Condition                              | Subtitle                       |
+| -------------------------------------- | ------------------------------ |
+| `season` and `episodeNumber` are set   | `S{season} · E{episodeNumber}` |
+| otherwise                              | _(none)_                       |
 
 ### Styling
 

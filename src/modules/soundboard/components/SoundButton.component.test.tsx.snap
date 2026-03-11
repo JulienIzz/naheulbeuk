@@ -77,13 +77,13 @@ exports[`SoundButton renders the clip title 2`] = `
         style={
           {
             "alignItems": "center",
-            "borderRadius": 12,
+            "borderRadius": 16,
             "flex": 1,
             "justifyContent": "center",
-            "minHeight": 80,
+            "minHeight": 56,
             "overflow": "hidden",
             "paddingHorizontal": 8,
-            "paddingVertical": 12,
+            "paddingVertical": 8,
           }
         }
       >

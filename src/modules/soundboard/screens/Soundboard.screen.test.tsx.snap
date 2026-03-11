@@ -12,9 +12,9 @@ Vous n'aurez pas le trésor
 ../../../assets/images/wood.jpg
 On n'est pas des demi-portions
 
-
 ../../../assets/images/wood.jpg
 C'est de la merde
+
 
 
 "
@@ -166,7 +166,7 @@ exports[`SoundboardScreen renders the soundboard grid 2`] = `
       <RCTScrollView
         contentContainerStyle={
           {
-            "gap": 8,
+            "gap": 12,
             "padding": 16,
           }
         }
@@ -211,7 +211,7 @@ exports[`SoundboardScreen renders the soundboard grid 2`] = `
               style={
                 {
                   "flexDirection": "row",
-                  "gap": 8,
+                  "gap": 12,
                 }
               }
             >
@@ -278,13 +278,13 @@ exports[`SoundboardScreen renders the soundboard grid 2`] = `
                     style={
                       {
                         "alignItems": "center",
-                        "borderRadius": 12,
+                        "borderRadius": 16,
                         "flex": 1,
                         "justifyContent": "center",
-                        "minHeight": 80,
+                        "minHeight": 56,
                         "overflow": "hidden",
                         "paddingHorizontal": 8,
-                        "paddingVertical": 12,
+                        "paddingVertical": 8,
                       }
                     }
                   >
@@ -400,13 +400,13 @@ exports[`SoundboardScreen renders the soundboard grid 2`] = `
                     style={
                       {
                         "alignItems": "center",
-                        "borderRadius": 12,
+                        "borderRadius": 16,
                         "flex": 1,
                         "justifyContent": "center",
-                        "minHeight": 80,
+                        "minHeight": 56,
                         "overflow": "hidden",
                         "paddingHorizontal": 8,
-                        "paddingVertical": 12,
+                        "paddingVertical": 8,
                       }
                     }
                   >
@@ -459,19 +459,6 @@ exports[`SoundboardScreen renders the soundboard grid 2`] = `
                   </View>
                 </View>
               </View>
-            </View>
-          </View>
-          <View
-            style={null}
-          >
-            <View
-              style={
-                {
-                  "flexDirection": "row",
-                  "gap": 8,
-                }
-              }
-            >
               <View
                 style={
                   {
@@ -535,13 +522,13 @@ exports[`SoundboardScreen renders the soundboard grid 2`] = `
                     style={
                       {
                         "alignItems": "center",
-                        "borderRadius": 12,
+                        "borderRadius": 16,
                         "flex": 1,
                         "justifyContent": "center",
-                        "minHeight": 80,
+                        "minHeight": 56,
                         "overflow": "hidden",
                         "paddingHorizontal": 8,
-                        "paddingVertical": 12,
+                        "paddingVertical": 8,
                       }
                     }
                   >
@@ -594,13 +581,6 @@ exports[`SoundboardScreen renders the soundboard grid 2`] = `
                   </View>
                 </View>
               </View>
-              <View
-                style={
-                  {
-                    "flex": 1,
-                  }
-                }
-              />
             </View>
           </View>
         </View>

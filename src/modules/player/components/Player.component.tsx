@@ -2,11 +2,11 @@ import styled from "@emotion/native";
 import { useTheme } from "@emotion/react";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { useLingui } from "@lingui/react/macro";
-import { View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import { IconButton } from "#design-system/components/IconButton";
-import { WoodenView } from "#design-system/components/TexturedComponents";
+import { WoodenBackground } from "#design-system/components/TexturedComponents";
 import { Typography } from "#design-system/typography/Typography";
 import { ProgressBar } from "#modules/player/components/ProgressBar.component";
 import { usePlayer } from "#modules/player/hooks/usePlayer";
@@ -19,6 +19,8 @@ export const Player = () => {
 
   return (
     <PlayerContainer bottomInset={bottom}>
+      <WoodenBackground />
+      <DarkenOverlay />
       <TrackInfo track={currentTrack} />
       <ProgressBar
         currentTime={currentTime}
@@ -153,8 +155,9 @@ const ButtonContainer = styled.View(({ theme }) => ({
   gap: theme.spacing.xxxl,
 }));
 
-const PlayerContainer = styled(WoodenView)<{ bottomInset: number }>(
+const PlayerContainer = styled.View<{ bottomInset: number }>(
   ({ bottomInset, theme }) => ({
+    overflow: "hidden",
     justifyContent: "center",
     alignItems: "center",
     borderTopWidth: theme.spacing.s,
@@ -166,3 +169,8 @@ const PlayerContainer = styled(WoodenView)<{ bottomInset: number }>(
         : theme.spacing.xl,
   }),
 );
+
+const DarkenOverlay = styled.View({
+  ...StyleSheet.absoluteFill,
+  backgroundColor: "rgba(0, 0, 0, 0.3)",
+});

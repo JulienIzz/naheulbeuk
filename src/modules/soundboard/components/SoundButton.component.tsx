@@ -40,8 +40,8 @@ const StyledPressable = styled(WoodenPressable)(({ theme }) => ({
   flex: 1,
   alignItems: "center",
   justifyContent: "center",
-  borderRadius: theme.borderRadius.m,
-  paddingVertical: theme.spacing.l,
+  borderRadius: theme.borderRadius.l,
+  paddingVertical: theme.spacing.m,
   paddingHorizontal: theme.spacing.m,
-  minHeight: 80,
+  minHeight: 56,
 }));

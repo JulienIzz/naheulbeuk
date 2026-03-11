@@ -64,6 +64,18 @@ exports[`renders with no track loaded 2`] = `
         }
       }
     />
+    <View
+      style={
+        {
+          "backgroundColor": "rgba(0, 0, 0, 0.3)",
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
     <View>
       <Text
         center={true}

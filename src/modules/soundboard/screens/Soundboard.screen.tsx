@@ -11,7 +11,7 @@ import type { Track } from "#modules/tracks/domain/track.types";
 import { useSoundboardClips } from "#modules/tracks/hooks/useSoundboardClips";
 import { BaseScreen } from "#shared/components/BaseScreen";
 
-const NUM_COLUMNS = 2;
+const NUM_COLUMNS = 3;
 
 type Section = {
   title: string;
@@ -92,7 +92,7 @@ const SoundboardScreenContent = () => {
   const contentContainerStyle = useMemo(
     () => ({
       padding: theme.spacing.xl,
-      gap: theme.spacing.m,
+      gap: theme.spacing.l,
     }),
     [theme],
   );
@@ -143,7 +143,7 @@ const SectionHeaderContainer = styled.View(({ theme }) => ({
 
 const RowContainer = styled.View(({ theme }) => ({
   flexDirection: "row",
-  gap: theme.spacing.m,
+  gap: theme.spacing.l,
 }));
 
 const Spacer = styled.View({ flex: 1 });

@@ -1,10 +1,18 @@
 import styled from "@emotion/native";
+import { i18n } from "@lingui/core";
 import { useLingui } from "@lingui/react/macro";
 import { useRouter } from "expo-router";
+import { Linking } from "react-native";
 
 import { Button } from "#design-system/components/Button";
 import { DebugInfos } from "#modules/setup/components/DebugInfos.component";
 import { BaseScreen } from "#shared/components/BaseScreen";
+
+const PRIVACY_BASE_URL = "http://naheulbeuk-privacy.izzillo.fr";
+const privacyUrl =
+  i18n.locale === "fr"
+    ? `${PRIVACY_BASE_URL}/index.html`
+    : `${PRIVACY_BASE_URL}/privacy-en.html`;
 
 export const SetupScreen = () => {
   const { t } = useLingui();
@@ -24,7 +32,10 @@ const SetupScreenContent = () => {
     <Container>
       <ContentContainer>
         <Button onPress={() => router.push("/credits")} label={t`Crédits`} />
-        <Button onPress={() => {}} label={t`Confidentialité`} />
+        <Button
+          onPress={() => void Linking.openURL(privacyUrl)}
+          label={t`Confidentialité`}
+        />
       </ContentContainer>
       <DebugInfos />
     </Container>

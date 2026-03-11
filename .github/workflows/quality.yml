@@ -8,12 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version-file: ".nvmrc"
       - name: Load dependency cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: |
             node_modules
@@ -25,7 +25,7 @@ jobs:
         env:
           YARN_ENABLE_MIRROR: false
       - name: Load testing cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .cache
           key: ${{ runner.os }}-${{ github.ref_name }}-${{ github.sha }}

@@ -110,6 +110,10 @@ msgstr "Next"
 msgid "Une erreur est survenue"
 msgstr "Something went wrong"
 
+#: src/shared/components/QueryErrorBoundary.tsx
+msgid "Vérifiez votre connexion et réessayez"
+msgstr "Check your internet connection and try again"
+
 #: src/modules/setup/components/DebugInfos.component.tsx
 msgid "Version {version}"
 msgstr "Version {version}"

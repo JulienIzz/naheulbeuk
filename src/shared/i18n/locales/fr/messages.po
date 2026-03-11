@@ -110,6 +110,10 @@ msgstr "Suivant"
 msgid "Une erreur est survenue"
 msgstr "Une erreur est survenue"
 
+#: src/shared/components/QueryErrorBoundary.tsx
+msgid "Vérifiez votre connexion et réessayez"
+msgstr "Vérifiez votre connexion et réessayez"
+
 #: src/modules/setup/components/DebugInfos.component.tsx
 msgid "Version {version}"
 msgstr "Version {version}"

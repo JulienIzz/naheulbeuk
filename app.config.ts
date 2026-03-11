@@ -83,7 +83,11 @@ const config: ExpoConfig = {
   extra: {
     STAGE,
     appEnv: appConfig.appEnv,
+    eas: {
+      projectId: "8fa8439e-1366-48a6-9c46-9a05587f9384",
+    },
   },
+  owner: "julienizz",
   plugins: [
     "./plugins/versioning",
     "./plugins/withCCache.js",

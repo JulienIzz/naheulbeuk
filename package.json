@@ -1,6 +1,6 @@
 {
   "name": "naheulbeuk",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
@@ -9,6 +9,9 @@
     "prebuild": "STAGE=dev expo prebuild",
     "prebuild:staging": "STAGE=staging expo prebuild",
     "prebuild:production": "STAGE=production expo prebuild",
+    "build:production:android": "./scripts/buildProduction.sh android",
+    "build:production:ios": "./scripts/buildProduction.sh ios",
+    "build:production": "./scripts/buildProduction.sh all",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "test:unit": "jest",

@@ -1,0 +1,36 @@
+name: Quality
+on: push
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+      - name: Load dependency cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules
+            .yarn/cache
+            .yarn/install-state.gz
+          key: ${{ runner.os }}-node-${{ hashFiles('.nvmrc') }}-${{ hashFiles('yarn.lock') }}
+      - name: Install dependencies
+        run: yarn --immutable
+        env:
+          YARN_ENABLE_MIRROR: false
+      - name: Load testing cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: ${{ runner.os }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-${{ github.ref_name }}-
+            ${{ runner.os }}-
+      - name: Run checks
+        run: yarn test

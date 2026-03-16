@@ -5,12 +5,12 @@ import type { Track } from "#modules/tracks/domain/track.types";
 
 const MAX_CONCURRENT_PLAYERS = 8;
 
-const removePlayer = (
+const releasePlayer = (
   player: ReturnType<typeof createAudioPlayer>,
   activePlayers: Set<ReturnType<typeof createAudioPlayer>>,
 ) => {
-  player.remove();
   activePlayers.delete(player);
+  player.release();
 };
 
 export const useSoundPlayer = () => {
@@ -22,7 +22,7 @@ export const useSoundPlayer = () => {
     const players = activePlayers.current;
     return () => {
       for (const player of players) {
-        player.remove();
+        player.release();
       }
       players.clear();
     };
@@ -32,7 +32,7 @@ export const useSoundPlayer = () => {
     if (activePlayers.current.size >= MAX_CONCURRENT_PLAYERS) {
       const oldest = activePlayers.current.values().next().value;
       if (oldest) {
-        removePlayer(oldest, activePlayers.current);
+        releasePlayer(oldest, activePlayers.current);
       }
     }
 
@@ -45,7 +45,7 @@ export const useSoundPlayer = () => {
       (status) => {
         if (status.didJustFinish) {
           subscription.remove();
-          removePlayer(player, activePlayers.current);
+          releasePlayer(player, activePlayers.current);
         }
       },
     );
